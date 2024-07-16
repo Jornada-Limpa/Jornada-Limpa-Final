@@ -3,16 +3,12 @@ import ods from "./../../assets/ODs3-Capa-Materia (1).jpg"
 function Meta() {
     return (
       <>
-        <div className="w-full">
-            <img src={ods} alt="ods" />
-        </div>
-        <br/>
         <div>
           <div className="pl-14 pr-14 flex">
-          <div className="pl-14 text-4xl mt-3 mb-3 text-center">
-            <h2>Estatistícas sobre drogas</h2>
-          </div>
             <div className="w-4/5 text-justify">
+            <div className="pl-14 text-4xl mt-3 mb-3 text-center">
+              <h2>Estatistícas sobre drogas</h2>
+            </div>
               <p>
               De acordo com o Relatório Mundial sobre Drogas de 2022 do Escritório das Nações
               Unidas Sobre Drogas e Crime (UNODC):
