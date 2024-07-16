@@ -22,16 +22,16 @@ function Footer() {
         <div className="font-sans flex column justify-between bg-[#292828] text-white">
           <div className="container flex flex-col items-start py-4 ml-10">
             <p className='text-sm'>
-            <a href="/sobre">Quem Somos</a>
+            <a href="./../../pages/sobre">Quem Somos</a>
             </p>
             <p className='text-sm'>
-            <a href="/Contato">Contato</a>
+            <a href="./../../pages/contato">Contato</a>
             </p>
             <p className='text-sm'>
-            <a href="/Entrega">Dúvidas Frequentes</a>
+            <a href="./../../pages/entrega">Dúvidas Frequentes</a>
             </p>
             <p className='text-sm'>
-            <a href="/Meta">Meta</a>
+            <a href="./../../pages/meta">Meta</a>
             </p>
             </div>
 
