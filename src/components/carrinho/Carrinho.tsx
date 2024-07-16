@@ -94,9 +94,13 @@ function Carrinho() {
             <h2 className="text-green-700 flex">Grátis</h2>
           </div>
 
-          <Link to="/manutencao" className="inline-block bg-green-600 hover:bg-green-700 text-white  py-2 px-4 rounded border border-green-700">
+          <Link
+          to="/manutencao"
+          className="bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded"
+          onClick={() => finalizarCompra()}
+          >
             Finalizar Compra
-        </Link>
+          </Link>
         </div>
       </div>
     </>
