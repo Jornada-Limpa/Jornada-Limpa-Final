@@ -2,7 +2,7 @@ import { useContext, useEffect } from "react";
 import { CarrinhoContext } from "../../context/CarrinhoContext";
 import { toastAlerta } from "../../util/toastAlerta";
 import { AuthContext } from "../../context/AuthContext";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function Carrinho() {
   const { listaCarrinho } = useContext(CarrinhoContext);
@@ -94,13 +94,9 @@ function Carrinho() {
             <h2 className="text-green-700 flex">Grátis</h2>
           </div>
 
-          <button
-            className="rounded-md flex items-center text-white px-4 gap-1 p-2 bg-green-600 hover:bg-green-700"
-            onClick={() => finalizarCompra() }
-          >
-
-            FINALIZAR COMPRA
-          </button>
+          <Link to="/manutencao" className="inline-block bg-green-600 hover:bg-green-700 text-white  py-2 px-4 rounded border border-green-700">
+            Finalizar Compra
+        </Link>
         </div>
       </div>
     </>

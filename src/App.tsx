@@ -21,6 +21,7 @@ import DeletarProduto from './components/produto/deletarProduto/DeletarProduto';
 import Perfil from './pages/perfil/Perfil';
 import Carrinho from './components/carrinho/Carrinho';
 import Meta from './pages/meta/Meta';
+import Manutencao from './pages/manutencao/Manutencao';
 
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
               <Route path="/perfil" element={<Perfil />} />
               <Route path="/carrinho" element={<Carrinho />} />
               <Route path="/meta" element={<Meta />} />
+              <Route path="/manutencao" element={<Manutencao/>} />
             </Routes>
           </div>
           <Footer />
