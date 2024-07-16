@@ -1,0 +1,44 @@
+:root {
+  --color-background: #faf2dc ;
+  --color-primary: #3E94AB;
+  --color-secundary: #5C4129;
+  --color-footer: #000000;
+}
+
+ body {
+  background-color: var(--color-background);
+ }
+
+.body-contato{
+  background-image: url(../../assets/contatoteste.png);
+  background-size: 100px;
+}
+
+
+.contact-form-container {
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .contact-form {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
