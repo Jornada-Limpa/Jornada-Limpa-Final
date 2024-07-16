@@ -30,7 +30,7 @@ function App() {
         <CarrinhoProvider>
         <BrowserRouter>
         <ToastContainer/>
-          <Navbar />
+          <Footer />
           <div className='min-h-[80vh]'>
             <Routes>
               <Route path="/contato" element={<Contato />} />
